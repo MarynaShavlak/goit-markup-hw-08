@@ -65,8 +65,10 @@
 }
 
 .footer__socials {
+  @media screen and (max-width: calc($desktop - 1px)) {
   margin-bottom: 60px;
-  
+  }
+   
   @media screen and (min-width: $desktop) {
    margin-right: 93px;
   }

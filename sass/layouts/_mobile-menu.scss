@@ -82,6 +82,12 @@
   }
 }
 
+.mobile-menu__link--current {
+  color: $accent-color;
+}
+
+
+
 .mobile-contacts {
   @include gridGaps(32px, 0px, nowrap);
   flex-direction: column;
